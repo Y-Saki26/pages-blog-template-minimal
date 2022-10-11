@@ -11,3 +11,7 @@ google_analytics:
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-sitemap
+configs:
+  is_page_top: true
+  is_homepage: false
+  is_update_date: true

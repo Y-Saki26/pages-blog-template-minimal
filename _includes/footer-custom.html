@@ -1,12 +1,17 @@
 <!-- start custom footer snippets, customize with your own _includes/footer-custom.html file -->
 
 <!-- Back button to top of page -->
+{% if site.configs.is_page_top %}
 <p>Back to <a href="#">top of page</a></p>
+{% endif %}
 
 <!-- Back button to homepage -->
+{% if site.configs.is_homepage %}
 <p>Back to <a href="{{ site.url }}">Homepage</a></p>
+{% endif %}
 
 <!-- Show Last Update date -->
+{% if site.configs.is_update_date %}
 <p>Last Update: <time id="modify"></time></p>
 <script>
   /* 更新日の取得 */
@@ -20,5 +25,6 @@
   const target = document.getElementById('modify');
   target.textContent = `${year}-${month}-${date} ${hour}:${minute}`;
 </script>
+{% endif %}
 
 <!-- end custom head snippets -->

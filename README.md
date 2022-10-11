@@ -26,6 +26,7 @@ title: Blog Template        # サイトの名前
 description: Blog Template on GitHub Pages with Jekyll theme Miminal # サイトの説明
 url: https://y-saki26.github.io/pages-blog-template-minimal/ # サイトのURL
 logo: /assets/img/logo.png  # ページ左上に表示されるロゴ画像
+favicon_assets: /pages-blog-template-minimal/assets/favicons/ # ファビコンの所在
 show_downloads: false       # ダウンロードボタンの表示
 github:
   is_project_page: true     # プロジェクトページへのリンクの表示

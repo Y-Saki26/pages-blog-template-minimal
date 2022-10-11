@@ -1,12 +1,10 @@
 ---
 layout: default
-configs:
-  is_homepage: false
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./posts/another-page.html).
+[Link to another page](./posts/post1).
 
 There should be whitespace between paragraphs.
 

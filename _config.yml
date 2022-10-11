@@ -1,6 +1,5 @@
 title: Blog Template
 description: Blog Template on GitHub Pages with Jekyll theme Miminal
-url: https://y-saki26.github.io/pages-blog-template-minimal/
 logo: /assets/img/logo.png
 show_downloads: false
 github:
@@ -15,5 +14,4 @@ configs:
   is_multi_favicon: true
   is_mathjax: true
   is_page_top: true
-  is_homepage: true
   is_update_date: true

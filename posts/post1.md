@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Some Posts
 ---
 
 ## Welcome to another page

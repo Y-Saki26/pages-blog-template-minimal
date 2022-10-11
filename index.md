@@ -1,5 +1,7 @@
 ---
 layout: default
+configs:
+  is_homepage: false
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

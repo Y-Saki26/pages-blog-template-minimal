@@ -4,12 +4,12 @@ url:
 tagline: short description
 description: long description
 author:
-  name:
-  url:
+  name: Yuki Sakishita
+  url: https://y-saki26.github.io/
 twitter:
   username:
   card: summary
-logo: /pages-blog-template-minimal/assets/img/logo.jpg
+logo: /assets/img/logo.jpg
 google_site_verification:
 google_analytics:
 github:

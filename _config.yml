@@ -12,13 +12,13 @@ twitter:
 logo: /pages-blog-template-minimal/assets/img/logo.jpg
 google_site_verification:
 google_analytics:
-show_downloads: false
 github:
   is_project_page: true
   is_user_page: true
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-sitemap
+show_downloads: false
 configs:
   favicon_assets: /pages-blog-template-minimal/assets/favicons/
   is_multi_favicon: true

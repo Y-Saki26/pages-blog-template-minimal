@@ -1,5 +1,7 @@
 ---
 layout: default
+date: 2022-10-11
+lastmod: 2022-10-18
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

@@ -1,11 +1,21 @@
 title: Blog Template
-description: Blog Template on GitHub Pages with Jekyll theme Miminal
-logo: /assets/img/logo.png
+lang: ja
+url:
+tagline: short description
+description: long description
+author:
+  name:
+  url:
+twitter:
+  username:
+  card: summary
+logo: /pages-blog-template-minimal/assets/img/logo.jpg
+google_site_verification:
+google_analytics:
 show_downloads: false
 github:
   is_project_page: true
   is_user_page: true
-google_analytics:
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-sitemap
@@ -13,5 +23,5 @@ configs:
   favicon_assets: /pages-blog-template-minimal/assets/favicons/
   is_multi_favicon: true
   is_mathjax: true
-  is_page_top: true
-  is_update_date: true
+  is_pagetop_button: true
+  is_homepage_button: true

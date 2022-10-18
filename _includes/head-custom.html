@@ -7,7 +7,7 @@
 <!-- meta name="google-site-verification" content="{ tag }" /-->
 
 <!-- You can set your favicon here -->
-{% if site.configs.is_homepage %}
+{% if site.configs.is_multi_favicon %}
 <!-- Multi-environment support ( https://realfavicongenerator.net/ ) -->
 <link rel="apple-touch-icon" sizes="72x72" href="{{ site.configs.favicon_assets }}apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.configs.favicon_assets }}favicon-32x32.png">
@@ -22,7 +22,7 @@
 {% endif %}
 
 <!-- MathJax script-->
-{% if site.configs.is_homepage %}
+{% if site.configs.is_mathjax %}
 <script>
     MathJax = {
       chtml: {

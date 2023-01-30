@@ -65,9 +65,10 @@ configs:                    # このテンプレート用の設定パラメー�
 * Markdown 冒頭の `---` で挟まれた領域に同様のYAML形式のタグを設定できる．
   * `title`，`layout`，`date`，`lastmod` などの設定を推奨．
 * レイアウトのテンプレートを追加/変更する場合は `_layout/` を参照．
-  * `{{ site.～～}}` でサイト全体のパラメータ(`_config.yml` で設定したもの)，`{{ page.～～}}` でページのパラメータを参照できる．  
-  `{% include ～～ %}` で  `_includes` 内のファイルを参照できる．  
+  * `{{ site.～～}}` でサイト全体のパラメータ(`_config.yml` で設定したもの)，`{% raw %}{{ page.～～}}{% endraw %}` でページのパラメータを参照できる．  
+  `{% raw %}{% include ～～ %}{% endraw %}` で  `_includes` 内のファイルを参照できる．  
   （Jekyllでビルドするタイミングで展開される）
+  なお，ここのようにタグを Markdown 中で使うとエスケープされてしまうため [raw タグでエスケープする必要がある](https://www.xmisao.com/2014/06/30/how-to-escape-liquid-tag-in-jekyll.html)．
 * テーマを変更する場合は [使用できるテーマ](https://github.com/orgs/pages-themes/repositories) から選んで `_config.yml` の `theme` を変更する．
 * Google Analytics でトラッキングする際は `_config.yml` の `google_analytics` を設定する．
 * Google Search Console の所有権確認を行う際は「HTMLタグ」を選択し，タグ内のIDを `_config.yml` の `google_site_verification` に設定する．

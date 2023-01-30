@@ -7,7 +7,7 @@ Markdown だけ書いて簡単に個人サイトを作るためのテンプレ�
 1. このレポジトリを Fork する．（図1. 「+ Create a new fork」を押下し，Repository name や Description を設定し，「Create Fork」を押下して完了）  
 または既存レポジトリの場合はこのレポジトリの中身を展開し直下に置く．
     * `/readme_figures` はこのファイルの画像なので消して良い．
-2. `index.md` を編集する（トップページになる）．  
+2. `index.md` でトップページとなる Markdown ファイルを指定する．  
 `/index.md` が存在しない場合は `/README.md` が代わりにトップページ `index.html` になる．  
     * ロゴ画像 `/assets/img/logo.png` やファビコン `/assets/favicons/` も差し替えれば反映される．  
     [Favicon Generator. For real.](https://realfavicongenerator.net/) を使うと簡単にクロスプラットフォームのファビコンを設定できる．
@@ -15,7 +15,7 @@ Markdown だけ書いて簡単に個人サイトを作るためのテンプレ�
 4. デプロイが終われば（「Actions」タブで進捗を確認できる．数分～十数分程度．）「Pages」の上部にWebサイトのリンクが表示される（図3.）．  
 デフォルトのURLは `https://<ユーザー名(lower case)>.github.io/<レポジトリ名>/`．
 5. レポジトリ内にさらに Markdown ファイルを作成すれば push するたび自動で ～～.html が生成され，公開される．  
-`/posts/post1.md` を参照のこと．  
+`example.md` や  `/posts/post1.md` を参照のこと．  
 元の Markdown ファイルやその他のファイルもパスを指定すればアクセスできる．
 
 ![図1](readme_figures/fig1.png "図1")  

@@ -4,7 +4,7 @@ Markdown だけ書いて簡単に個人サイトを作るためのテンプレ�
 
 ## GitHub Pages で簡単にWebサイトを作る
 
-1. このレポジトリを Fork する．（図1. 「+ Create a new fork」を押下し，Repository name や Description を設定し，「Create Fork」を押下して完了）  
+1. [このレポジトリ](https://github.com/Y-Saki26/pages-blog-template-minimal)を Fork する．（図1. 「+ Create a new fork」を押下し，Repository name や Description を設定し，「Create Fork」を押下して完了）  
 または既存レポジトリの場合はこのレポジトリの中身を展開し直下に置く．
     * `/readme_figures` はこのファイルの画像なので消して良い．
 2. `index.md` でトップページとなる Markdown ファイルを指定する．  
@@ -65,10 +65,9 @@ configs:                    # このテンプレート用の設定パラメー�
 * Markdown 冒頭の `---` で挟まれた領域に同様のYAML形式のタグを設定できる．
   * `title`，`layout`，`date`，`lastmod` などの設定を推奨．
 * レイアウトのテンプレートを追加/変更する場合は `_layout/` を参照．
-  * `{{ site.～～}}` でサイト全体のパラメータ(`_config.yml` で設定したもの)，`{% raw %}{{ page.～～}}{% endraw %}` でページのパラメータを参照できる．  
-  `{% raw %}{% include ～～ %}{% endraw %}` で  `_includes` 内のファイルを参照できる．  
-  （Jekyllでビルドするタイミングで展開される）
-  なお，ここのようにタグを Markdown 中で使うとエスケープされてしまうため [raw タグでエスケープする必要がある](https://www.xmisao.com/2014/06/30/how-to-escape-liquid-tag-in-jekyll.html)．
+  * `{% raw %}{{ site.～～}}{% endraw %}` でサイト全体のパラメータ(`_config.yml` で設定したもの)，`{% raw %}{{ page.～～}}{% endraw %}` でページのパラメータを参照できる．  
+  `{% raw %}{% include ～～ %}{% endraw %}` で  `_includes` 内のファイルを参照できる．（Jekyllでビルドするタイミングで展開される）  
+  なお，↑のように Markdown 中でタグを使うと Jekyll の構文が優先して解釈され，展開されてしまうため [raw タグでエスケープする必要がある](https://www.xmisao.com/2014/06/30/how-to-escape-liquid-tag-in-jekyll.html)．
 * テーマを変更する場合は [使用できるテーマ](https://github.com/orgs/pages-themes/repositories) から選んで `_config.yml` の `theme` を変更する．
 * Google Analytics でトラッキングする際は `_config.yml` の `google_analytics` を設定する．
 * Google Search Console の所有権確認を行う際は「HTMLタグ」を選択し，タグ内のIDを `_config.yml` の `google_site_verification` に設定する．
